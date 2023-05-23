@@ -2,6 +2,8 @@ algoritmo "Algoritmo 025"
 // Função : Detectar potencial triangulo
 // Autor : Yago Frankley
 // Data : 26/04/2023
+// Seção de Declarações
+// s1, s2, s3: segmentos do triangulo
 var
    s1, s2, s3: real
 inicio
