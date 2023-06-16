@@ -1,7 +1,11 @@
-algoritmo "Algoritmo 044"
+algoritmo "Algoritmo 045"
 // Função : Contar de i ate f saltando z
 // Autor : Yago Frankley
 // Data : 23/05/2023
+// Seção de Declarações
+   //i: valor inicial
+   //f: valor final
+   //z: valor do incremento
 var
    i, f, z: inteiro
 inicio

@@ -2,6 +2,8 @@ algoritmo "Algoritmo 020"
 // Função : Determinar se um numero é par ou impar
 // Autor : Yago Frankley
 // Data : 24/04/2023
+// Seção de Declarações
+   //n: numero digitado pelo usuario
 var
    n: inteiro
 inicio

@@ -3,11 +3,13 @@ algoritmo "Algoritmo 012"
 // Autor : Yago Frankley
 // Data : 14/04/2023
 // Seção de Declarações 
+   //p: preço do produto
+   //d: desconto de 95%
 var
-   preco, desconto: real
+   p, d: real
 inicio
    escreva("Qual o preço do produto? R$")
-   leia(preco)
-   desconto <- preco * (95 / 100)
-   escreva("O preço com desconto de 5% é igual a R$", desconto)
+   leia(p)
+   d <- p * (95 / 100)
+   escreva("O preço com desconto de 5% é igual a R$", d)
 fimalgoritmo

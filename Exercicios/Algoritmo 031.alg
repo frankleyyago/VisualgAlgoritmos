@@ -2,7 +2,10 @@ algoritmo "Algoritmo 031"
 // Função : criar jogo JoKenPo
 // Autor : Yago Frankley
 // Data : 04/05/2023
-
+// Seção de Declarações
+   //j1: jogador 1
+   //j2: jogador 2
+   //ppt1, ppt2: pedra papel tesoura
 procedimento menu()
 inicio
       escreval("-------------------")

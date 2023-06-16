@@ -3,10 +3,10 @@ algoritmo "Algoritmo 010"
 // Autor : Yago Frankley
 // Data : 14/04/2023
 // Seção de Declarações 
-// largpad: largura da parede
-// altpad: altura da parede
-// areapad: area da parede
-// tinta: tinta para pintar parede
+   // largpad: largura da parede
+   // altpad: altura da parede
+   // areapad: area da parede
+   // tinta: tinta para pintar parede
 var
    largpad, altpad, areapad, tinta: real
 inicio

@@ -2,6 +2,8 @@ algoritmo "Algoritmo 039"
 // Função : Contar de 10 a 3
 // Autor : Yago Frankley
 // Data : 16/05/2023
+// Seção de Declarações
+   //c: contador
 var
    c: inteiro
 inicio

@@ -2,13 +2,16 @@ algoritmo "Algoritmo 003"
 // Função : ler um nome e um salario
 // Autor : Yago Frankley
 // Data : 11/04/2023
+// Seção de Declarações
+   //n: nome do funcionario
+   //s: salario do funcionario
 var
-   nome: caractere
-   salario: real
+   n: caractere
+   s: real
 inicio
    escreva("Nome do funcionário: ")
-   leia(nome)
+   leia(n)
    escreva("Salário: ")
-   leia(salario)
-   escreva("O funcionário ", nome, " tem um salario de R$", salario, " em Junho")
+   leia(s)
+   escreva("O funcionário ", n, " tem um salario de R$", s, " em Junho")
 fimalgoritmo

@@ -2,19 +2,23 @@ algoritmo "Algoritmo 023"
 // Função : Detectar sexo e dar desconto
 // Autor : Yago Frankley
 // Data : 26/04/2023
+// Seção de Declarações
+   //s: sexo
+   //p: preco
+   //d: desconto
 var
-   sexo: caractere
-   preco, desconto: real
+   s: caractere
+   p, d: real
 inicio
    escreva("Qual seu sexo? [M/F] ")
-   leia(sexo)
+   leia(s)
    escreva("Qual o preço da sua compra? R$")
-   leia(preco)
-   se (sexo = "F") entao
-     desconto <- preco * 87/100
-     escreval("O preço da sua compra considerando o desconto é de R$", desconto)
+   leia(p)
+   se (s = "F") entao
+     d <- p * 87/100
+     escreval("O preço da sua compra considerando o desconto é de R$", d)
    senao
-     desconto <- preco * 95/100
-     escreval("O preço da sua compra considerando o desconto é de R$", desconto)
+     d <- p * 95/100
+     escreval("O preço da sua compra considerando o desconto é de R$", d)
    fimse
 fimalgoritmo

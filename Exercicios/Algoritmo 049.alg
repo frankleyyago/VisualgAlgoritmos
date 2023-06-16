@@ -2,6 +2,11 @@ algoritmo "Algoritmo 049"
 // Função : Ler 6 valores e identificar par/impar
 // Autor : Yago Frankley
 // Data : 24/05/2023
+// Seção de Declarações
+   //c: contador
+   //n: numero
+   //sp: soma de numeros pares
+   //si: soma de numeros impares
 var
    c, n, sp, si: inteiro
 inicio

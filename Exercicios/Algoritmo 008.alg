@@ -3,6 +3,13 @@ algoritmo "Algoritmo 008"
 // Autor : Yago Frankley
 // Data : 14/04/2023
 // Seção de Declarações 
+   //km: kilometro
+   //hm: hectometro
+   //dam: decametro
+   //m: metro
+   //dm: decimetro
+   //cm: centimetro
+   //mm: milimetro
 var
   km, hm, dam, m, dm, cm, mm: real
 inicio

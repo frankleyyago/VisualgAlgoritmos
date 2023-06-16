@@ -2,6 +2,8 @@ algoritmo "Algoritmo 030"
 // Função : Detectar potencial triangulo e informar o tipo de triangulo
 // Autor : Yago Frankley
 // Data : 26/04/2023
+// Seção de Declarações
+   //s1, s2, s3: segmentos do triangulo
 var
    s1, s2, s3: real
 inicio

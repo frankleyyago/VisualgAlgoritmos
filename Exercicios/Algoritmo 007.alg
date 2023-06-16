@@ -3,13 +3,16 @@ algoritmo "Algoritmo 007"
 // Autor : Yago Frankley
 // Data : 14/04/2023
 // Seção de Declarações 
+   //n: numero digitado pelo usuario
+   //d: dobro de n
+   //t: terça parte de n
 var
-   numero, dobro, terca: real
+   n, d, t: real
 inicio
    escreva("Digite um número: ")
-   leia(numero)
-   dobro <- numero * 2
-   terca <- numero / 3
-   escreval("O dobro de", numero, " é ", dobro:1:1)
-   escreva("A terça parte de", numero, " é ", terca:1:2)
+   leia(n)
+   d <- n * 2
+   t <- n / 3
+   escreval("O dobro de", n, " é ", d:1:1)
+   escreva("A terça parte de", n, " é ", t:1:2)
 fimalgoritmo

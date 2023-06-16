@@ -2,10 +2,16 @@ algoritmo "Algoritmo 037"
 // Função : Calcular reajuste salarial
 // Autor : Yago Frankley
 // Data : 16/05/2023
+// Seção de Declarações
+   //op: opcao
+   //s: salario
+   //at: anos de trabalho
+   //a: aumento salario
+   //g: genero
 var
    op: inteiro
-   salario, anosTrabalho, aumento: real
-   genero: caractere
+   s, at, a: real
+   g: caractere
 inicio
    escreval("Pressione [1] ou [2] ")
    escreval("[1] Masculino")
@@ -13,10 +19,10 @@ inicio
    escreva("Escolha seu gênero: ")
    leia(op)
    se (op = 1) entao
-      genero <- "Masculino"
+      g <- "Masculino"
    senao
       se (op = 2) entao
-         genero <- "Feminino"
+         g <- "Feminino"
       senao
          escreval("Opção invalida!")
          fimalgoritmo
@@ -25,29 +31,29 @@ inicio
    escreva("Digite o seu salário: ")
    leia(salario)
    escreva("A quantos anos você trabalha na empresa? ")
-   leia(anosTrabalho)
-   se (op = 2) e (anosTrabalho < 15) entao
-      aumento <- salario * 1.05
+   leia(at)
+   se (op = 2) e (at < 15) entao
+      a <- s * 1.05
    senao
-      se (op = 2) e ((anosTrabalho >= 15) ou (anosTrabalho <= 20)) entao
-         aumento <- salario * 1.12
+      se (op = 2) e ((at >= 15) ou (at <= 20)) entao
+         a <- s * 1.12
       senao
-         se (op = 2) e (anosTrabalho > 20) entao
-            aumento <- salario * 1.23
+         se (op = 2) e (at > 20) entao
+            a <- s * 1.23
          senao
-            se (op = 1) e (anosTrabalho < 20) entao
-               aumento <- salario * 1.03
+            se (op = 1) e (at < 20) entao
+               a <- s * 1.03
             senao
-               se (op = 1) e ((anosTrabalho >= 20) ou (anosTrabalho <= 30)) entao
-                  aumento <- salario * 1.13
+               se (op = 1) e ((at >= 20) ou (at <= 30)) entao
+                  a <- s * 1.13
                senao
-                  se (op = 1) e (anosTrabalho > 30) entao
-                     aumento <- salario * 1.25
+                  se (op = 1) e (at > 30) entao
+                     a <- s * 1.25
                   fimse
                fimse
             fimse
          fimse
       fimse
    fimse
-   escreval("Seu novo salário é de R$", aumento)
+   escreval("Seu novo salário é de R$", a)
 fimalgoritmo

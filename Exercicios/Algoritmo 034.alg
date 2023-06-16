@@ -2,14 +2,18 @@ algoritmo "Algoritmo 034"
 // Função : Calcular IMC
 // Autor : Yago Frankley
 // Data : 05/05/2023
+// Seção de Declarações
+   //a: altura
+   //p: peso
+   //imc: indice massa corporal
 var
-   altura, peso, imc: real
+   a, p, imc: real
 inicio
    escreva("Digite sua altura [m] ")
-   leia(altura)
+   leia(a)
    escreva("Digite seu peso [kg] ")
-   leia(peso)
-   imc <- (peso / (altura*2))
+   leia(p)
+   imc <- (p / (a*2))
    escreval("Seu IMC é: ", imc:2:2)
    se (imc < 18.5) entao
       escreval("Você está abaixo do peso ideal")

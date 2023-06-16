@@ -2,6 +2,8 @@ algoritmo "Algoritmo 043"
 // Função : Contar de 30 ate 1 destacando multiplos de 4
 // Autor : Yago Frankley
 // Data : 22/05/2023
+// Seção de Declarações
+   //c: contador
 var
    c: inteiro
 inicio

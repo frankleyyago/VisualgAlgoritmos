@@ -2,6 +2,9 @@ algoritmo "Algoritmo 042"
 // Função : contar de 1 ate n
 // Autor : Yago Frankley
 // Data : 17/05/2023
+// Seção de Declarações
+   //n: numero
+   //c: contador
 var
    n, c: inteiro
 inicio

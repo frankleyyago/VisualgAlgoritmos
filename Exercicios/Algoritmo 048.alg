@@ -2,6 +2,10 @@ algoritmo "Algoritmo 048"
 // Função : Ler 7 numeros e soma-los
 // Autor : Yago Frankley
 // Data : 24/05/2023
+// Seção de Declarações
+   //c: contador
+   //n: numero
+   //s: soma
 var
    c, n, s: inteiro
 inicio

@@ -2,21 +2,25 @@ algoritmo "Algoritmo 028"
 // Função : Classificar terreno
 // Autor : Yago Frankley
 // Data : 28/04/2023
+// Seção de Declarações
+   //l: largura
+   //c: comprimento
+   //a: area
 var
-   largura, comprimento, area: real
+   l, c, a: real
 inicio
    escreva("Digite a largura do terreno: ")
-   leia(largura)
+   leia(l)
    escreva("Digite o comprimento do terreno: ")
-   leia(comprimento)
-   area <- largura * comprimento
-   se (area <= 100) entao
+   leia(c)
+   a <- l * c
+   se (a <= 100) entao
       escreval("Terreno popular")
    senao
-      se (area > 100) e (area < 500) entao
+      se (a > 100) e (a < 500) entao
          escreval("Terreno master")
       senao
-         se (area > 500) entao
+         se (a > 500) entao
             escreval("Terreno vip")
          fimse
       fimse

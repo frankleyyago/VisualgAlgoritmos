@@ -2,15 +2,18 @@ algoritmo "Algoritmo 018"
 // Função : Detectar potencial votante
 // Autor : Yago Frankley
 // Data : 24/04/2023
+// Seção de Declarações
+   //a: ano de nascimento
+   //i: idade
 var
-   nascimento, idade: inteiro
+   a, i: inteiro
 inicio
    escreva("Você nasceu em qual ano? (yyyy) ")
-   leia(nascimento)
-   idade <- 2023 - nascimento
-   se (idade >= 18) entao
-      escreva("Você tem", idade, " anos, portanto, DEVE votar")
+   leia(a)
+   i <- 2023 - a
+   se (i >= 18) entao
+      escreva("Você tem", i, " anos, portanto, DEVE votar")
    senao
-      escreva("Você tem", idade, " anos, portanto, NÃO DEVE votar")
+      escreva("Você tem", i, " anos, portanto, NÃO DEVE votar")
    fimse
 fimalgoritmo

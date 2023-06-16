@@ -3,10 +3,10 @@ algoritmo "Algoritmo 051"
 // Autor : Yago Frankley
 // Data : 26/05/2023
 //Declaração de variavéis
-//c: contador
-//p: preço
-//ma: maior preço digitado pelo usuario
-//me: menor preço digitado pelo usuario
+   //c: contador
+   //p: preço
+   //ma: maior preço digitado pelo usuario
+   //me: menor preço digitado pelo usuario
 var
    c: inteiro
    p, ma, me: real

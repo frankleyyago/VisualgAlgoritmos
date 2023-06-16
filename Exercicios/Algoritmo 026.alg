@@ -2,6 +2,9 @@ algoritmo "Algoritmo 026"
 // Função : detectar numero maior
 // Autor : Yago Frankley
 // Data : 28/04/2023
+// Seção de Declarações
+   //n1: numero 1
+   //n2: numero 2
 var
    n1, n2: real
 inicio

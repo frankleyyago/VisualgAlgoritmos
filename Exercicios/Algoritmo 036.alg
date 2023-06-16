@@ -2,25 +2,30 @@ algoritmo "Algoritmo 036"
 // Função : Calcular recompensa
 // Autor : Yago Frankley
 // Data : 09/05/2023
+// Seção de Declarações
+   //hd: horas diarias
+   //hm: horas mensais
+   //r: recompensa
+   //pts: pontuacao
 var
-   horas, mes, reais, pts: real
+   hd, hm, r, pts: real
 inicio
    escreva("Horas diárias de atividade física: ")
-   leia(horas)
-   mes <- horas * 30
-   se (mes <= 10) entao
-      pts <- mes * 2
+   leia(hd)
+   hm <- hd * 30
+   se (hm <= 10) entao
+      pts <- hm * 2
    senao
-      se (mes > 10) e (mes <= 20) entao
-         pts <- mes * 5
+      se (hm > 10) e (hm <= 20) entao
+         pts <- hm * 5
       senao
-         pts <- mes * 10
+         pts <- hm * 10
       fimse
    fimse
-   reais <- pts * 0.05
+   r <- pts * 0.05
    escreval("----------------------------------------")
-   escreval("Tempo mensal de atividade: ", mes, " hrs")
+   escreval("Tempo mensal de atividade: ", hm, " hrs")
    escreval("Sua pontuação: ", pts, " pts")
-   escreval("Sua recompensa: R$", reais)
+   escreval("Sua recompensa: R$", r)
    escreval("----------------------------------------")
 fimalgoritmo
