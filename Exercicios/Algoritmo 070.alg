@@ -1,8 +1,8 @@
 algoritmo "Algoritmo 070"
-// Função : calcular os 10 primeiros termos da SF
+// Fun??o : calcular os 10 primeiros termos da SF
 // Autor : Yago Frankley
 // Data : 12/07/2023
-// Seção de Declarações
+// Se??o de Declara??es
    //c: contador
    //t1: primeiro termo da SF
    //t2: segundo termo da SF
