@@ -1,4 +1,4 @@
-algoritmo "Algoritmo 086"
+algoritmo "Algoritmo 089"
 // Função : usar procedimentos
 // Autor : Yago Frankley
 // Data : 17/07/2023

@@ -1,4 +1,4 @@
-algoritmo "Algoritmo 091"
+algoritmo "Algoritmo 097"
 // Função : somar dois valores atraves de procedimento
 // Autor : Yago Frankley
 // Data : 19/07/2023
